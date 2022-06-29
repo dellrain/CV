@@ -4,82 +4,96 @@
 <head>
     <meta charset="UTF-8">
     <title>dellrain CV</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <table cellspacing="15">
-        <tr>
-            <td>
-                <img src="avatar.jpg" width="200" alt="тут моя фотка">
-            </td>
-            <td>
+    <div class="container">
+        <div class="info">
+            <img src="avatar.jpg" alt="тут моя фотка" class="avatar">
+            <div class="info-text">
                 <h1>Ткаченко Алексей</h1>
-                <p><em>Мне 19 лет. Россия, Воронеж</em></p>
-            </td>
+                <p>Мне 19 лет. Россия, Воронеж</p>
+                <p>Учился в <strong>МБОУ СОШ №98</strong></p>
 
-        </tr>
-    </table>
+                <h4>Мои социальные сети</h4>
+                <a href="https://vk.com/alexite" target="_blank">ВКонтакте</a>
+                |
+                <a href="https://t.me/logicalstimulus22" target="_blank">Telegram</a>
+            </div>
+
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Компьютеры и техника</li>
+                <li>Игры</li>
+                <li>Фильмы</li>
+                <li>Музыка</li>
+            </ol>
+        </div>
+
+        <div class="card bg-green">
+            <h2>Опыт работы)))</h2>
+            <table class="table">
+                <tr>
+                    <td>1</td>
+                    <td>hfghfhfh</th>
+                    <td>Abcdefghijklmnop</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Хаsfsefsefsefseх</td>
+                    <td>2007123123123123</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Хаsfsefsefsefseх</td>
+                    <td>2007123123123123</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Хаsfsefsefsefseх</td>
+                    <td>2007123123123123</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="contact card bg-red">
+            <h2>Связаться со мной</h2>
+
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name:" placeholder="Введите ваше имя">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите вашу почту">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" rows="3" cols="20"></textarea>
+                </div>
+
+                <input class="button" type="submit" value="Связаться">
+            </form>
+        </div>
+
+        <div class="position">
+            <div class="box"></div>
+        </div>
+
+    </div>
 
 
 
-    <hr>
-
-    <h2>Мои социальные сети</h2>
-    <ul>
-        <li><a href="https://vk.com/alexite" target="_blank">ВКонтакте</a></li>
-    </ul>
-
-    <hr>
-
-    <h2>Мои хобби</h2>
-    <ol>
-        <li>Компьютеры и техника</li>
-        <li>Игры</li>
-        <li>Фильмы</li>
-        <li>Музыка</li>
-    </ol>
-
-    <hr>
-
-    <h2>Опыт работы)))</h2>
-    <table>
-        <tr>
-            <th>Название компании</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-        <tr>
-            <td>Лолfwfsfesfsfs</td>
-            <td>Хаsfsefsefsefseх</td>
-            <td>2007123123123123</td>
-        </tr>
-    </table>
-
-    <hr>
-    
-    <h2>Связаться со мной</h2>
-
-    <form action="/">
-        <label for="name">Ваше имя</label>
-        <input type="text" id="name:" placeholder="Введите ваше имя">
-
-        <br>
-
-        <label for="email">Ваш Email:</label>
-        <input type="email" id="email" placeholder="Введите вашу почту">
-
-        <label for="message">Вваше сообщение сообщение:</label>
-        <br>
-        <textarea id="message" rows="3" cols="20"></textarea>
-
-        <br>
-
-        <input type="submit" value="Связаться">
-    </form>
-
-
-
-    <script src="alert.js"></script>
+    <div style="margin-bottom: 500px"></div>
 </body>
 
 </html>
