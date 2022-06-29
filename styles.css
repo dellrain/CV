@@ -29,9 +29,11 @@ a:visited {
 }
 
 .avatar {
-    width: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 28px;
     box-shadow: 0px 0px 20px 4px black;
+    margin-top: 20px;
 }
 
 .info {
@@ -50,6 +52,7 @@ a:visited {
 .info-text {
     margin-left: 40px;
 }
+
 .info-text h4 {
     margin-bottom: 10px;
 }
@@ -170,12 +173,12 @@ a:visited {
     margin-bottom: 20px;
 }
 
-.row > .form-group {
+.row>.form-group {
     width: 50%;
     margin-right: 20px;
 }
 
-.row > .form-group:nth-child(2) {
+.row>.form-group:nth-child(2) {
     margin-right: 0px;
 }
 
@@ -209,7 +212,7 @@ a:visited {
     left: 0;
     /* top: 150px;
     left: 30px; */
-    /* width: 100%;
+/* width: 100%;
     height: 50px;
     background-color: lightcoral;
-} */ 
+} */
